@@ -28,9 +28,6 @@ var FIELD_MAPS = {
 $(document).ready(function() {
     for (var field in FIELD_MAPS) {
         var el = $("."+FIELD_MAPS[field][0]);
-        el.addClass(FIELD_MAPS[field][1]);
-        if (el.length) {
-            console.log(field);
-        }
+        el.addClass(FIELD_MAPS[field][1]);        
     }
 });
